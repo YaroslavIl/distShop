@@ -52,12 +52,15 @@
 .characteristic__features dd {
   font-size: 1.125rem;
   font-weight: 600;
-  flex-basis: 25rem;
+  flex: 1 1 50%;
   text-align: right;
   line-height: 1.5;
+  min-width: 0;
+  overflow-wrap: break-word;
 }
 .characteristic__features dt {
   font-size: 1.125rem;
+  min-width: 0;
 }
 .characteristic__title {
   font-size: 1.875rem;
@@ -982,9 +985,6 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   .product .characteristic__features dd,
   .product .characteristic__features dt {
     font-size: 0.8125rem;
-  }
-  .product .characteristic__features dd {
-    flex-basis: 18.75rem;
   }
   .product .spollers__title,
   .product .characteristic__title,
