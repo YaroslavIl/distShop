@@ -47,6 +47,7 @@
 }
 .catalog__card {
   border-radius: 0.75rem;
+  border: 0.0625rem solid #000;
   overflow: hidden;
   box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, 0.12);
   transition: box-shadow 0.3s ease;

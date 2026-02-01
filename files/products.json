@@ -5,12 +5,12 @@
         "price": 22800,
         "image": "./assets/img/itemsPageProduct/hilton2/hilton2.1.jpg",
         "gallery": [
-            "itemsPageProduct/hilton2/hilton2.2.jpg",
-            "assets/img/itemsPageProduct/hilton2/hilton2.3.jpg",
+            "./assets/img/itemsPageProduct/hilton2/hilton2.2.jpg",
+            "./assets/img/itemsPageProduct/hilton2/hilton2.3.jpg",
             "./assets/img/itemsPageProduct/hilton2/hilton2.4.jpg",
-            "assets/img/itemsPageProduct/hilton2/hilton2.5.jpg",
-            "assets/img/itemsPageProduct/hilton2/hilton2.6.jpg",
-            "assets/img/itemsPageProduct/hilton2/hilton2.7.jpg"
+            "./assets/img/itemsPageProduct/hilton2/hilton2.5.jpg",
+            "./assets/img/itemsPageProduct/hilton2/hilton2.6.jpg",
+            "./assets/img/itemsPageProduct/hilton2/hilton2.7.jpg"
         ],
         "description": "Диван Турін - поєднання елегантності та функціональності.",
         "features": [
@@ -270,5 +270,164 @@
             }
         ],
         "slug": "turin"
+    },
+    {
+        "id": 6,
+        "name": "Джотто",
+        "price": 24300,
+        "image": "./assets/img/itemsPageProduct/jotto2/jotto2.1.jpg",
+        "gallery": [
+            "./assets/img/itemsPageProduct/jotto2/jotto2.1.jpg",
+            "./assets/img/itemsPageProduct/jotto2/jotto2.2.jpg",
+            "./assets/img/itemsPageProduct/jotto2/jotto2.3.jpg",
+            "./assets/img/itemsPageProduct/jotto2/jotto2.4.jpg",
+            "./assets/img/itemsPageProduct/jotto2/jotto2.5.jpg",
+            "./assets/img/itemsPageProduct/jotto2/jotto2.6.jpg",
+            "./assets/img/itemsPageProduct/jotto2/jotto2.7.jpg"
+        ],
+        "description": "Стильний та комфортний диван Хілтон ідеально впишеться в інтер'єр вашої вітальні.",
+        "features": [
+            {
+                "name": "Габаритний розмір:",
+                "value": "2460х1600 мм.;"
+            },
+            {
+                "name": "Спальне місце:",
+                "value": "2000х1600мм;"
+            },
+            {
+                "name": "Механізм трансформації:",
+                "value": "єврокнижка;"
+            },
+            {
+                "name": "Наповнення:",
+                "value": "пружинний блок Бонель/ термовойлок 670/ ППУ/ синтепон/ обивочна тканина;"
+            },
+            {
+                "name": "Подушки:",
+                "value": "змінні чохли;"
+            },
+            {
+                "name": "Ніша для білизни:",
+                "value": "В наявності;"
+            },
+            {
+                "name": "Доступні розміри:",
+                "value": "Є можливість збільшення спального місця на +10/+20 см;"
+            },
+            {
+                "name": "Комплектація подушок:",
+                "value": "3 великі, 2 маленькі декоративні."
+            }
+        ],
+        "slug": "jotto"
+    },
+    {
+        "id": 7,
+        "name": "Хілтон",
+        "price": 22800,
+        "image": "./assets/img/itemsPageProduct/hilton3/hilton3.1.jpg",
+        "gallery": [
+            "./assets/img/itemsPageProduct/hilton3/hilton3.1.jpg",
+            "./assets/img/itemsPageProduct/hilton3/hilton3.2.jpg",
+            "./assets/img/itemsPageProduct/hilton3/hilton3.3.jpg",
+            "./assets/img/itemsPageProduct/hilton3/hilton3.4.jpg",
+            "./assets/img/itemsPageProduct/hilton3/hilton3.5.jpg",
+            "./assets/img/itemsPageProduct/hilton3/hilton3.6.jpg",
+            "./assets/img/itemsPageProduct/hilton3/hilton3.7.jpg"
+        ],
+        "description": "Диван Турін - поєднання елегантності та функціональності.",
+        "features": [
+            {
+                "name": "Габаритний розмір:",
+                "value": "2345х1620 мм.;"
+            },
+            {
+                "name": "Спальне місце:",
+                "value": "1900х1600 мм;"
+            },
+            {
+                "name": "Механізм трансформації:",
+                "value": "викатний;"
+            },
+            {
+                "name": "Наповнення:",
+                "value": "пінополіуретан/ синтепон/ меблева тканина;"
+            },
+            {
+                "name": "Подушки:",
+                "value": "змінні чохли;"
+            },
+            {
+                "name": "Ніша для білизни:",
+                "value": "В наявності;"
+            },
+            {
+                "name": "Варіанти матрасу:",
+                "value": "блок ППУ щільністю 2840/ блок ППУ 2540/ пружинний блок /Бонель/;"
+            },
+            {
+                "name": "Доступні розміри:",
+                "value": "під замовлення;"
+            },
+            {
+                "name": "Колір декора:",
+                "value": "Венге, Дуб Сонома, Дуб Сонома Трюфель, Дуб Клондайк, Аляска, Дуб Тахо;"
+            },
+            {
+                "name": "Комплектація подушок:",
+                "value": "3 великі, 2 маленькі декоративні"
+            }
+        ],
+        "slug": "hilton"
+    },
+    {
+        "id": 8,
+        "name": "Джотто",
+        "price": 24300,
+        "image": "./assets/img/itemsPageProduct/jotto3/jotto3.1.jpg",
+        "gallery": [
+            "./assets/img/itemsPageProduct/jotto3/jotto3.1.jpg",
+            "./assets/img/itemsPageProduct/jotto3/jotto3.2.jpg",
+            "./assets/img/itemsPageProduct/jotto3/jotto3.3.jpg",
+            "./assets/img/itemsPageProduct/jotto3/jotto3.4.jpg",
+            "./assets/img/itemsPageProduct/jotto3/jotto3.5.jpg"
+        ],
+        "description": "Стильний та комфортний диван Хілтон ідеально впишеться в інтер'єр вашої вітальні.",
+        "features": [
+            {
+                "name": "Габаритний розмір:",
+                "value": "2340х1600 мм.;"
+            },
+            {
+                "name": "Спальне місце:",
+                "value": "2000х1600мм;"
+            },
+            {
+                "name": "Механізм трансформації:",
+                "value": "єврокнижка;"
+            },
+            {
+                "name": "Наповнення:",
+                "value": "пружинний блок Бонель/ термовойлок 670/ ППУ/ синтепон/ обивочна тканина;"
+            },
+            {
+                "name": "Подушки:",
+                "value": "змінні чохли;"
+            },
+            {
+                "name": "Ніша для білизни:",
+                "value": "В наявності;"
+            },
+            {
+                "name": "Доступні розміри:",
+                "value": "Є можливість збільшення спального місця на +10/+20 см;"
+            },
+            {
+                "name": "Комплектація подушок:",
+                "value": "3 великі, 2 маленькі декоративні."
+            }
+        ],
+        "slug": "jotto"
     }
 ]
