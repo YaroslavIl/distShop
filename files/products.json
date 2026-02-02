@@ -798,13 +798,13 @@
         "id": 16,
         "name": "Далас",
         "price": 18400,
-        "image": "./assets/img/itemsPageProduct/renk3/renk3.1.jpg",
+        "image": "./assets/img/itemsPageProduct/dalas3/dalas3.1.jpg",
         "gallery": [
-            "./assets/img/itemsPageProduct/renk3/renk3.1.jpg",
-            "./assets/img/itemsPageProduct/renk3/renk3.2.jpg",
-            "./assets/img/itemsPageProduct/renk3/renk3.3.jpg",
-            "./assets/img/itemsPageProduct/renk3/renk3.4.jpg",
-            "./assets/img/itemsPageProduct/renk3/renk3.5.jpg"
+            "./assets/img/itemsPageProduct/dalas3/dalas3.1.jpg",
+            "./assets/img/itemsPageProduct/dalas3/dalas3.2.jpg",
+            "./assets/img/itemsPageProduct/dalas3/dalas3.3.jpg",
+            "./assets/img/itemsPageProduct/dalas3/dalas3.4.jpg",
+            "./assets/img/itemsPageProduct/dalas3/dalas3.5.jpg"
         ],
         "description": "Диван Турін - поєднання елегантності та функціональності.",
         "features": [
@@ -854,59 +854,6 @@
             "./assets/img/itemsPageProduct/lira/lira1.3.jpg",
             "./assets/img/itemsPageProduct/lira/lira1.4.jpg",
             "./assets/img/itemsPageProduct/lira/lira1.5.jpg"
-        ],
-        "description": "Диван Турін - поєднання елегантності та функціональності.",
-        "features": [
-            {
-                "name": "Габаритний розмір:",
-                "value": "2120х1000 мм.;"
-            },
-            {
-                "name": "Спальне місце:",
-                "value": "1900х1450 мм;"
-            },
-            {
-                "name": "Механізм трансформації:",
-                "value": "єврокнижка;"
-            },
-            {
-                "name": "Наповнення:",
-                "value": "пружинний блок Бонель/ термовойлок 670/ ППУ/ синтепон/ обивочна тканина;"
-            },
-            {
-                "name": "Подушки:",
-                "value": "змінні чохли;"
-            },
-            {
-                "name": "Ніша для білизни:",
-                "value": "В наявності;"
-            },
-            {
-                "name": "Доступні розміри:",
-                "value": "Є можливість збільшення спального місця на +10/+20 см;"
-            },
-            {
-                "name": "Колір декора:",
-                "value": "Венге, Дуб Сонома, Дуб Сонома Трюфель, Дуб Клондайк, Аляска, Дуб Тахо;"
-            },
-            {
-                "name": "Комплектація подушок:",
-                "value": "3 великі, 2 маленькі декоративні"
-            }
-        ],
-        "slug": "lira"
-    },
-    {
-        "id": 17,
-        "name": "Ліра",
-        "price": 17900,
-        "image": "./assets/img/itemsPageProduct/renk3/renk3.1.jpg",
-        "gallery": [
-            "./assets/img/itemsPageProduct/renk3/renk3.1.jpg",
-            "./assets/img/itemsPageProduct/renk3/renk3.2.jpg",
-            "./assets/img/itemsPageProduct/renk3/renk3.3.jpg",
-            "./assets/img/itemsPageProduct/renk3/renk3.4.jpg",
-            "./assets/img/itemsPageProduct/renk3/renk3.5.jpg"
         ],
         "description": "Диван Турін - поєднання елегантності та функціональності.",
         "features": [
@@ -1110,5 +1057,107 @@
             }
         ],
         "slug": "renk"
+    },
+    {
+        "id": 21,
+        "name": "Лукас",
+        "price": 17300,
+        "image": "./assets/img/itemsPageProduct/lucas/lucas1.1.jpg",
+        "gallery": [
+            "./assets/img/itemsPageProduct/lucas/lucas1.1.jpg",
+            "./assets/img/itemsPageProduct/lucas/lucas1.2.jpg",
+            "./assets/img/itemsPageProduct/lucas/lucas1.3.jpg",
+            "./assets/img/itemsPageProduct/lucas/lucas1.4.jpg",
+            "./assets/img/itemsPageProduct/lucas/lucas1.5.jpg"
+        ],
+        "description": "Диван Турін - поєднання елегантності та функціональності.",
+        "features": [
+            {
+                "name": "Габаритний розмір:",
+                "value": "1990х820 мм.;"
+            },
+            {
+                "name": "Спальне місце:",
+                "value": "1900х1600 мм;"
+            },
+            {
+                "name": "Механізм трансформації:",
+                "value": "викатний;"
+            },
+            {
+                "name": "Наповнення:",
+                "value": "пінополіуретан/ синтепон/ меблева тканина;"
+            },
+            {
+                "name": "Подушки:",
+                "value": "змінні чохли;"
+            },
+            {
+                "name": "Ніша для білизни:",
+                "value": "В наявності;"
+            },
+            {
+                "name": "Доступні розміри:",
+                "value": "від 1000*1900 до 1900*1900;"
+            },
+            {
+                "name": "Комплектація подушок:",
+                "value": "2 великі, 2 маленькі декоративні"
+            }
+        ],
+        "slug": "lucas"
+    },
+    {
+        "id": 22,
+        "name": "Оксфорд",
+        "price": 20200,
+        "image": "./assets/img/itemsPageProduct/oxford/oxford1.1.jpg",
+        "gallery": [
+            "./assets/img/itemsPageProduct/oxford/oxford1.1.jpg",
+            "./assets/img/itemsPageProduct/oxford/oxford1.2.jpg",
+            "./assets/img/itemsPageProduct/oxford/oxford1.3.jpg",
+            "./assets/img/itemsPageProduct/oxford/oxford1.4.jpg",
+            "./assets/img/itemsPageProduct/oxford/oxford1.5.jpg"
+        ],
+        "description": "Диван Турін - поєднання елегантності та функціональності.",
+        "features": [
+            {
+                "name": "Габаритний розмір:",
+                "value": "2325х970 мм.;"
+            },
+            {
+                "name": "Спальне місце:",
+                "value": "1800х1900 мм;"
+            },
+            {
+                "name": "Механізм трансформації:",
+                "value": "викатний;"
+            },
+            {
+                "name": "Наповнення:",
+                "value": "пінополіуретан/ синтепон/ меблева тканина;"
+            },
+            {
+                "name": "Подушки:",
+                "value": "змінні чохли;"
+            },
+            {
+                "name": "Ніша для білизни:",
+                "value": "В наявності;"
+            },
+            {
+                "name": "Доступні розміри:",
+                "value": "Є можливість збільшення спального місця на +10/+20 см;"
+            },
+            {
+                "name": "Колір декора:",
+                "value": "Венге, Дуб Сонома, Дуб Сонома Трюфель, Дуб Клондайк, Аляска, Дуб Тахо;"
+            },
+            {
+                "name": "Комплектація подушок:",
+                "value": "3 великі, 2 маленькі декоративні"
+            }
+        ],
+        "slug": "oxford"
     }
 ]
