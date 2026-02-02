@@ -411,6 +411,8 @@ body {
 }@media (max-width: 46.875em){
   .address__title {
     padding-inline: 0;
+    font-size: 1.5rem;
+    font-weight: 600;
   }
   .address__box {
     flex-direction: column;

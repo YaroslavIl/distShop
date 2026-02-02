@@ -985,15 +985,19 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
     height: 1.25rem;
   }
 }
+@media (max-width: 46.875em) {
+  .spollers__title {
+    font-size: 1.25rem;
+  }
+}
 @media (max-width: 37.5em) {
   .product .characteristic__features dd,
   .product .characteristic__features dt {
     font-size: 0.8125rem;
   }
-  .product .spollers__title,
   .product .characteristic__title,
   .product .product__title {
-    font-size: 1.5625rem;
+    font-size: 1.375rem;
   }
   .product .product__price {
     font-size: 1.125rem;
