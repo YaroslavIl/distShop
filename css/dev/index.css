@@ -53,9 +53,19 @@
   transition: box-shadow 0.3s ease;
   color: black;
 }
+
+.card__link {
+  width: 100%;
+}
+.card__pic {
+  aspect-ratio: 160/110;
+  background-color: #fff;
+  border-bottom: 0.0625rem solid #000;
+}
 .card__img {
   height: 100%;
   width: 100%;
+  object-fit: contain;
 }
 .card__info {
   padding: 0.9375rem;
@@ -202,11 +212,11 @@ body::after {
   .catalog__grid {
     grid-template-columns: repeat(auto-fit, minmax(17.5rem, 1fr));
   }
-}
-
-@media (min-width: 53.125em) {
-  .card__pic {
-    aspect-ratio: 400/280;
+  .card__title {
+    font-size: 1.375rem;
+  }
+  .card__price {
+    font-size: 1.125rem;
   }
 }
 
