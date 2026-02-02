@@ -1,4 +1,4 @@
-import "./main.min.js";
+import "./popup.min.js";
 import "./common.min.js";
 var __assign = function() {
   __assign = Object.assign || function __assign2(t) {

@@ -1,4 +1,4 @@
-import "./main.min.js";
+import "./popup.min.js";
 import "./common.min.js";
 function isObject$1(obj) {
   return obj !== null && typeof obj === "object" && "constructor" in obj && obj.constructor === Object;

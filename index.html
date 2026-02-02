@@ -5,11 +5,11 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="shortcut icon" href="./assets/img/favicon.ico">
 		<title>Home Page</title>
-		<script type="module" crossorigin="" src="./js/index.min.js?v=1770036398501"></script>
-		<link rel="modulepreload" crossorigin="" href="./js/common.min.js?v=1770036398501">
-		<link rel="modulepreload" crossorigin="" href="./js/main.min.js?v=1770036398501">
-		<link rel="stylesheet" crossorigin="" href="./css/main.min.css?v=1770036398501">
-		<link rel="stylesheet" crossorigin="" href="./css/index.min.css?v=1770036398501">
+		<script type="module" crossorigin="" src="./js/index.min.js?v=1770039627360"></script>
+		<link rel="modulepreload" crossorigin="" href="./js/common.min.js?v=1770039627360">
+		<link rel="modulepreload" crossorigin="" href="./js/popup.min.js?v=1770039627360">
+		<link rel="stylesheet" crossorigin="" href="./css/popup.min.css?v=1770039627360">
+		<link rel="stylesheet" crossorigin="" href="./css/index.min.css?v=1770039627360">
 	</head>
 	<body>
 		<div class="wrapper">
@@ -72,7 +72,7 @@
 										<a href="index.html" class="menu__link">Головна</a>
 									</li>
 									<li class="menu__item">
-										<a href="index.html" class="menu__link" data-fls-scrollto-header="" data-fls-scrollto=".catalog">Каталог</a>
+										<a href="index.html#catalog" data-fls-scrollto=".catalog" class="menu__link">Каталог</a>
 									</li>
 									<li class="menu__item">
 										<a href="" class="menu__link">Тканини</a>
@@ -230,7 +230,7 @@
 						</div>
 					</div>
 					<div class="index__container">
-						<section class="index__catalog catalog">
+						<section id="catalog" class="index__catalog catalog">
 							<h2 class="catalog__title">Каталог</h2>
 							<div class="catalog__grid">
 								<article class="catalog__card card">
@@ -560,6 +560,51 @@
 										<div class="card__info">
 											<h3 class="card__title">Диван "Оксфорд"</h3>
 											<span class="card__price">20 200 грн</span>
+										</div>
+									</a>
+								</article>
+								<article class="catalog__card card">
+									<a href="product.html?id=23" class="card__link">
+										<div class="card__pic">
+											<picture>
+												<source media="(max-width: 600px)" srcset="./assets/img/mainSlider/37-600.webp" type="image/webp">
+												<source media="(max-width: 1200px)" srcset="./assets/img/mainSlider/37-1200.webp" type="image/webp">
+												<img alt="Диван Моріс" class="card__img" src="./assets/img/mainSlider/37.webp">
+											</picture>
+										</div>
+										<div class="card__info">
+											<h3 class="card__title">Диван "Моріс"</h3>
+											<span class="card__price">17 000 грн</span>
+										</div>
+									</a>
+								</article>
+								<article class="catalog__card card">
+									<a href="product.html?id=24" class="card__link">
+										<div class="card__pic">
+											<picture>
+												<source media="(max-width: 600px)" srcset="./assets/img/mainSlider/38-600.webp" type="image/webp">
+												<source media="(max-width: 1200px)" srcset="./assets/img/mainSlider/38-1200.webp" type="image/webp">
+												<img alt="Диван Моріс" class="card__img" src="./assets/img/mainSlider/38.webp">
+											</picture>
+										</div>
+										<div class="card__info">
+											<h3 class="card__title">Диван "Моріс"</h3>
+											<span class="card__price">16 700 грн</span>
+										</div>
+									</a>
+								</article>
+								<article class="catalog__card card">
+									<a href="product.html?id=25" class="card__link">
+										<div class="card__pic">
+											<picture>
+												<source media="(max-width: 600px)" srcset="./assets/img/mainSlider/39-600.webp" type="image/webp">
+												<source media="(max-width: 1200px)" srcset="./assets/img/mainSlider/39-1200.webp" type="image/webp">
+												<img alt="Диван Моріс" class="card__img" src="./assets/img/mainSlider/39.webp">
+											</picture>
+										</div>
+										<div class="card__info">
+											<h3 class="card__title">Диван "Моріс"</h3>
+											<span class="card__price">17 000 грн</span>
 										</div>
 									</a>
 								</article>
