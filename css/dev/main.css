@@ -90,7 +90,12 @@ body {
   color: black;
   font-family: "Cormorant Garamond", sans-serif;
   font-size: 1rem;
-  background-color: rgb(246, 246, 246);
+  background: url("../assets/img/bgImg.webp");
+  background: url("../assets/img/bgImg.webp");
+  background: url("../assets/img/1.webp");
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: auto;
 }
 [data-fls-scrolllock] body {
   overflow: hidden;
