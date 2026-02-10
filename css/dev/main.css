@@ -90,10 +90,7 @@ body {
   color: black;
   font-family: "Cormorant Garamond", sans-serif;
   font-size: 1rem;
-  background: url("../assets/img/bgImg.webp");
-  background: url("../assets/img/bgImg.webp");
-  background: url("../assets/img/1.webp");
-  background: url("../assets/img/2.webp");
+  background-color: rgb(173, 172, 172);
   background-repeat: repeat;
   background-attachment: fixed;
   background-size: auto;
