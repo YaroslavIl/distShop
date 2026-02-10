@@ -197,10 +197,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-block: 1.5625rem;
+  padding-block: 0.3125rem;
 }
 .header__main-block {
   background-color: white;
+}
+.header__logo {
+  width: 15.625rem;
+  height: 6.25rem;
 }
 .header__logo img {
   width: 100%;
@@ -426,13 +430,17 @@ body {
   }
 }@media (max-width: 37.5em){
   .menu__body {
-    top: 6.375rem;
+    top: 4rem;
   }
   .header__logo {
     width: 6.25rem;
+    height: 2.5rem;
   }
   .header .contact__tel-icon {
     display: none;
+  }
+  .header-spacer {
+    height: 4.375rem;
   }
   .address__map iframe {
     height: 12.5rem;

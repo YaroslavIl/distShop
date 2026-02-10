@@ -469,6 +469,13 @@ function pageNavigation() {
         const noHeader = gotoLink.hasAttribute("data-fls-scrollto-header") ? true : false;
         const gotoSpeed = gotoLink.dataset.flsScrolltoSpeed ? gotoLink.dataset.flsScrolltoSpeed : 500;
         const offsetTop = gotoLink.dataset.flsScrolltoTop ? parseInt(gotoLink.dataset.flsScrolltoTop) : 0;
+        const targetExists = document.querySelector(gotoLinkSelector);
+        if (!targetExists) {
+          const hash = gotoLinkSelector.replace(/^[.#]/, "");
+          window.location.href = `index.html#${hash}`;
+          e.preventDefault();
+          return;
+        }
         if (window.fullpage) {
           const fullpageSection = document.querySelector(`${gotoLinkSelector}`).closest("[data-fls-fullpage-section]");
           const fullpageSectionId = fullpageSection ? +fullpageSection.dataset.flsFullpageId : null;
