@@ -406,34 +406,50 @@ body::after {
   align-self: flex-end;
 }
 
-.delivery {
+.popup__text {
   font-family: "Montserrat", sans-serif;
 }
-.delivery p {
+.popup__text p {
   font-size: 1.375rem;
   margin-bottom: 1.25rem;
 }
 
-.delivery__list {
+.popup__text ol {
   list-style: disc;
   padding-left: 1.875rem;
 }
-.delivery__list > :not(:last-child) {
+.popup__text ol > :not(:last-child) {
   margin-bottom: 0.9375rem;
 }
 
-.delivery__item {
+.popup__text li {
   font-size: 1.25rem;
   font-weight: 600;
   letter-spacing: 0.04375rem;
 }
 
+.popup__link {
+  position: relative;
+  font-size: 1.375rem;
+  text-decoration: none;
+  color: inherit;
+  margin-bottom: 1.25rem;
+}
+.popup__link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -0.25rem;
+  width: 0;
+  height: 0.125rem;
+  background: currentColor;
+  transition: width 0.3s ease;
+}
 @media (max-width: 75em) and (any-hover: none){
   .icon-menu {
     cursor: default;
   }
 }
-
 @media (max-width: 75em){
   .menu__body {
     position: fixed;
@@ -518,13 +534,11 @@ body::after {
     height: 7.5rem;
   }
 }
-
 @media (max-width: 53.125em){
   .header .contact__tel-icon {
     display: none;
   }
 }
-
 @media (max-width: 50em){
   .header .contact__container.contact__container--none {
     display: flex;
@@ -534,7 +548,6 @@ body::after {
     background-color: #fff;
   }
 }
-
 @media (max-width: 46.875em){
   .address__title {
     padding-inline: 0;
@@ -548,13 +561,11 @@ body::after {
     align-self: flex-start;
   }
 }
-
 @media (max-width: 43.75em){
   .menu__body {
     width: 100%;
   }
 }
-
 @media (max-width: 37.5em){
   .menu__body {
     top: 3.1875rem;
@@ -568,19 +579,18 @@ body::after {
   .address__map iframe {
     height: 12.5rem;
   }
-  .delivery p {
+  .popup__text p {
     font-size: 1.25rem;
     margin-bottom: 0.625rem;
   }
-  .delivery__item {
+  .popup__text li {
     font-size: 1.125rem;
     font-weight: 600;
   }
-  .delivery__list > :not(:last-child) {
+  .popup__text ol > :not(:last-child) {
     margin-bottom: 0.5rem;
   }
 }
-
 @media (max-width: 28.125em){
   .header__logo {
     max-width: 8.125rem;
@@ -594,7 +604,6 @@ body::after {
     gap: 0.4375rem;
   }
 }
-
 @media (max-width: 23.125em){
   .header__logo {
     max-width: 6.25rem;
@@ -603,7 +612,6 @@ body::after {
     font-size: 0.75rem;
   }
 }
-
 @media (any-hover: hover) and (pointer: fine){
   .header .contact__tel:hover::before,
   .header .menu__link:hover::before {
@@ -614,5 +622,11 @@ body::after {
   }
   .social__pic img:hover {
     scale: 1.1;
+  }
+  .popup__link:hover::after {
+    width: 100%;
+  }
+  .popup__link:hover {
+    color: rgba(2, 2, 2, 0.5803921569);
   }
 }
