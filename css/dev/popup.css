@@ -406,6 +406,9 @@ body::after {
   align-self: flex-end;
 }
 
+.delivery {
+  font-family: "Montserrat", sans-serif;
+}
 .delivery p {
   font-size: 1.375rem;
   margin-bottom: 1.25rem;
@@ -566,13 +569,12 @@ body::after {
     height: 12.5rem;
   }
   .delivery p {
-    font-size: 1.125rem;
+    font-size: 1.25rem;
     margin-bottom: 0.625rem;
   }
   .delivery__item {
-    font-size: 1rem;
+    font-size: 1.125rem;
     font-weight: 600;
-    letter-spacing: 0.04375rem;
   }
   .delivery__list > :not(:last-child) {
     margin-bottom: 0.5rem;
