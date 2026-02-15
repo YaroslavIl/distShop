@@ -47,6 +47,8 @@
   height: 100%;
   object-fit: cover;
   margin-bottom: 0.4375rem;
+  cursor: pointer;
+  transition: scale ease-in-out 0.4s;
 }
 .fabric-card__number {
   display: block;
@@ -76,5 +78,10 @@
 @media (max-width: 25em) {
   .category__grid {
     grid-template-columns: repeat(auto-fill, minmax(6.25rem, 1fr));
+  }
+}
+@media (any-hover: hover) and (pointer: fine) {
+  .fabric-card__img:hover {
+    scale: 1.1;
   }
 }
