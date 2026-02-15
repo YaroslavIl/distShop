@@ -406,6 +406,25 @@ body::after {
   align-self: flex-end;
 }
 
+.delivery p {
+  font-size: 1.375rem;
+  margin-bottom: 1.25rem;
+}
+
+.delivery__list {
+  list-style: disc;
+  padding-left: 1.875rem;
+}
+.delivery__list > :not(:last-child) {
+  margin-bottom: 0.9375rem;
+}
+
+.delivery__item {
+  font-size: 1.25rem;
+  font-weight: 600;
+  letter-spacing: 0.04375rem;
+}
+
 @media (max-width: 75em) and (any-hover: none){
   .icon-menu {
     cursor: default;
@@ -545,6 +564,18 @@ body::after {
   }
   .address__map iframe {
     height: 12.5rem;
+  }
+  .delivery p {
+    font-size: 1.125rem;
+    margin-bottom: 0.625rem;
+  }
+  .delivery__item {
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.04375rem;
+  }
+  .delivery__list > :not(:last-child) {
+    margin-bottom: 0.5rem;
   }
 }
 
