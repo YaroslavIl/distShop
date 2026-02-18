@@ -16,7 +16,7 @@
 }
 .hero__button-prev {
   left: 2vw;
-  rotate: 180deg 0;
+  rotate: 180deg;
 }
 .hero__button-prev, .hero__button-next {
   position: absolute;

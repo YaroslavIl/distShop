@@ -1,5 +1,5 @@
 import "./popup.min.js";
-import { l as lightGallery } from "./lightgallery.min.js";
+import { l as lightGallery } from "./lightgallery-bundle.min.js";
 import "./common.min.js";
 const KEY = "7EC452A9-0CFD441C-BD984C7C-17C8456E";
 function initFabricsGallery() {
