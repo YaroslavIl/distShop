@@ -143,7 +143,7 @@ function requireLgThumbnail_min() {
 }
 var lgThumbnail_minExports = requireLgThumbnail_min();
 const lgThumbnail = /* @__PURE__ */ getDefaultExportFromCjs(lgThumbnail_minExports);
-const KEY$1 = "7EC452A9-0CFD441C-BD984C7C-17C8456E";
+const KEY = "7EC452A9-0CFD441C-BD984C7C-17C8456E";
 const urlParams = new URLSearchParams(window.location.search);
 const productId = parseInt(urlParams.get("id"));
 const getImagePath = (path) => path;
@@ -225,12 +225,21 @@ async function loadProduct() {
       if (lgInstance) lgInstance.destroy();
       lgInstance = lightGallery(galleryElement, {
         plugins: [lgThumbnail],
-        licenseKey: KEY$1,
+        licenseKey: KEY,
         speed: 500,
         thumbnail: true,
         animateThumb: true,
         download: false,
         dynamic: true,
+        showCloseIcon: true,
+        // ВАЖЛИВО: окремо для мобільних
+        mobileSettings: {
+          controls: true,
+          // стрілки
+          showCloseIcon: true,
+          // хрестик "закрити"
+          download: false
+        },
         dynamicEl: product.gallery.map((img) => {
           const src = getImagePath(img);
           return {
@@ -258,30 +267,4 @@ async function loadProduct() {
   }
 }
 loadProduct();
-const KEY = "7EC452A9-0CFD441C-BD984C7C-17C8456E";
-const fabricsPage = document.querySelector("[data-fls-fabrics]");
-console.log(fabricsPage);
-function initFabricsGallery() {
-  console.log("🔍 Шукаю [data-fls-fabrics]...");
-  const fabricsPage2 = document.querySelector("[data-fls-fabrics]");
-  console.log("Знайдено fabricsPage:", fabricsPage2);
-  if (fabricsPage2) {
-    const fabricsContainer = document.querySelector(".fabrics__category");
-    console.log("Знайдено fabricsContainer:", fabricsContainer);
-    if (fabricsContainer) {
-      lightGallery(fabricsContainer, {
-        selector: ".fabric-card__img",
-        licenseKey: KEY,
-        speed: 500,
-        download: false,
-        counter: true
-      });
-      console.log("✅ Галерея тканин ініціалізована");
-    } else {
-      console.error("❌ .fabrics__category не знайдено!");
-    }
-  } else {
-    console.log("ℹ️ [data-fls-fabrics] не знайдено (можливо, це не сторінка тканин)");
-  }
-}
 window.addEventListener("load", initFabricsGallery);

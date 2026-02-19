@@ -13,9 +13,18 @@ function initFabricsGallery() {
         speed: 500,
         download: false,
         counter: true,
-        controls: true
+        controls: true,
+        showCloseIcon: true,
+        // ВАЖЛИВО: окремо для мобільних
+        mobileSettings: {
+          controls: true,
+          // стрілки
+          showCloseIcon: true,
+          // хрестик "закрити"
+          download: false
+        }
       });
     }
   }
 }
-window.addEventListener("load", initFabricsGallery);
+document.addEventListener("DOMContentLoaded", initFabricsGallery);
