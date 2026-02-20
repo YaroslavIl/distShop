@@ -8,19 +8,16 @@ function initFabricsGallery() {
     const fabricsContainer = document.querySelector(".fabrics__category");
     if (fabricsContainer) {
       lightGallery(fabricsContainer, {
-        selector: ".fabric-card__img",
+        selector: ".fabric-card",
         licenseKey: KEY,
         speed: 500,
         download: false,
         counter: true,
         controls: true,
         showCloseIcon: true,
-        // ВАЖЛИВО: окремо для мобільних
         mobileSettings: {
           controls: true,
-          // стрілки
           showCloseIcon: true,
-          // хрестик "закрити"
           download: false
         }
       });

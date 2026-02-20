@@ -267,4 +267,3 @@ async function loadProduct() {
   }
 }
 loadProduct();
-window.addEventListener("load", initFabricsGallery);
